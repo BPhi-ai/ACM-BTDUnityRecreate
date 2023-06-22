@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a6e7af856a6438692088eea7e9797f5, type: 3}
+  m_Name: GreenEliteBloonProperties
+  m_EditorClassIdentifier: 
+  _bloonColor: {r: 0, g: 0.5849056, b: 0, a: 1}
+  _canBePoppedByDarts: 1
+  _canBePoppedByTacks: 0
+  _canBePoppedByBombs: 1
+  _canBeFrozen: 0
+  _canBeDetected: 1
+  _numberOfHitsToPop: 5
+  _moneyWhenPopped: 5
+  _moveSpeed: 1.65
+  _bloonsToSpawnWhenPopped:
+  - {fileID: 11400000, guid: e7d5efa85375f564cb1984f85a99858e, type: 2}
+  _bloonType: 10
